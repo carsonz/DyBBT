@@ -1,0 +1,56 @@
+{
+	"model": {
+		"load_path": "",
+		"use_pretrained_initialisation": false,
+		"pretrained_load_path": "",
+		"num_train_dialogues": 3000,
+		"seed": 42,
+		"epoch": 100,
+		"eval_frequency": 5,
+		"sys_semantic_to_usr": false,
+		"num_eval_dialogues": 1000,
+		"batchsz": 32,
+		"distillation_frequency": 10,
+		"process_num": 1
+	},
+	"dybbt": {
+		"tau": 2.0,
+		"max_turns": 50,
+		"confidence_threshold": 0.7,
+		"slot_cooccurrence_matrix_path": "./data/slot_cooccurrence_matrix.pkl",
+		"multiwoz_matrix_path": "./data/multiwoz_slot_cooccurrence.pkl",
+		"msdialog_matrix_path": "./data/msdialog_slot_cooccurrence.pkl",
+		"system1_model_path": "./models/system1_lora_finetuned",
+		"system2_model_path": "./models/system2_base",
+		"distillation_buffer_size": 10000
+	},
+	"vectorizer_sys": {
+		"uncertainty_vector_mul": {
+			"class_path": "convlab.policy.vector.vector_binary.VectorBinary",
+			"ini_params": {
+				"use_masking": true,
+				"manually_add_entity_names": false,
+				"seed": 0
+			}
+		}
+	},
+	"nlu_sys": {},
+	"dst_sys": {
+		"RuleDST": {
+			"class_path": "convlab.dst.rule.multiwoz.dst.RuleDST",
+			"ini_params": {}
+		}
+	},
+	"sys_nlg": {},
+	"nlu_usr": {},
+	"dst_usr": {},
+	"policy_usr": {
+		"RulePolicy": {
+			"class_path": "convlab.policy.rule.multiwoz.RulePolicy",
+			"ini_params": {
+				"character": "usr"
+			}
+		}
+	},
+	"usr_nlg": {}
+}

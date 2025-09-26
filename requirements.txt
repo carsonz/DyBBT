@@ -1,0 +1,17 @@
+numpy
+torch
+boto3
+requests
+tqdm
+sentence_transformers
+nltk
+transformers
+tensorboard
+tensorboardX
+fuzzywuzzy
+python-Levenshtein
+peft
+accelerate
+bitsandbytes
+nvitop
+modelscope

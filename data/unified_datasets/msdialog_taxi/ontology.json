@@ -1,0 +1,119 @@
+{
+  "domains": {
+    "taxi": {
+      "description": "book taxi service",
+      "slots": {
+        "car_type": {
+          "description": "car_type information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "city": {
+          "description": "city information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "closing": {
+          "description": "closing information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "date": {
+          "description": "date information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "distanceconstraints": {
+          "description": "distanceconstraints information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dropoff_location": {
+          "description": "dropoff_location information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "greeting": {
+          "description": "greeting information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "name": {
+          "description": "name information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "numberofpeople": {
+          "description": "numberofpeople information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "other": {
+          "description": "other information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pickup_location": {
+          "description": "pickup_location information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dropoff_location_city": {
+          "description": "dropoff_location_city information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pickup_location_city": {
+          "description": "pickup_location_city information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pickup_time": {
+          "description": "pickup_time information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "state": {
+          "description": "state information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "cost": {
+          "description": "cost information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "taxi_company": {
+          "description": "taxi_company information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "mc_list": {
+          "description": "mc_list information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "taskcomplete": {
+          "description": "taskcomplete information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "taxi": {
+          "description": "taxi information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "zip": {
+          "description": "zip information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "result": {
+          "description": "result information for taxi booking",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  }
+}

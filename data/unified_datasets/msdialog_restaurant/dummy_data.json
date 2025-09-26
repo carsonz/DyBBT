@@ -1,0 +1,426 @@
+[
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_1068",
+    "original_id": "1068",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The city should be south philadelphia. The numberofpeople should be 6. The restauranttype should be seafood restaurant. The greeting should be Good Evening. The rating should be five star. ",
+      "inform": {
+        "restaurant": {
+          "city": "south philadelphia",
+          "numberofpeople": "6",
+          "restauranttype": "seafood restaurant",
+          "greeting": "Good Evening",
+          "rating": "five star"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The city should be south philadelphia. The numberofpeople should be 6. The restauranttype should be seafood restaurant. The greeting should be Good Evening. The rating should be five star.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "city": "south philadelphia",
+            "numberofpeople": "6",
+            "restauranttype": "seafood restaurant",
+            "greeting": "Good Evening",
+            "rating": "five star"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_2158",
+    "original_id": "2158",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be tonight. The numberofpeople should be 5. ",
+      "inform": {
+        "restaurant": {
+          "date": "tonight",
+          "numberofpeople": "5"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be tonight. The numberofpeople should be 5.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "tonight",
+            "numberofpeople": "5"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_2712",
+    "original_id": "2712",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be Saturday Night. The cuisine should be Italian. The numberofpeople should be 7. The city should be Philadelphia. The rating should be 4 to 5 star. ",
+      "inform": {
+        "restaurant": {
+          "date": "Saturday Night",
+          "cuisine": "Italian",
+          "numberofpeople": "7",
+          "city": "Philadelphia",
+          "rating": "4 to 5 star"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be Saturday Night. The cuisine should be Italian. The numberofpeople should be 7. The city should be Philadelphia. The rating should be 4 to 5 star.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "Saturday Night",
+            "cuisine": "Italian",
+            "numberofpeople": "7",
+            "city": "Philadelphia",
+            "rating": "4 to 5 star"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_0810",
+    "original_id": "810",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be tomorrow. The city should be seattle. The restaurantname should be Barolo. The numberofpeople should be 2. The starttime should be 7pm. ",
+      "inform": {
+        "restaurant": {
+          "date": "tomorrow",
+          "city": "seattle",
+          "restaurantname": "Barolo",
+          "numberofpeople": "2",
+          "starttime": "7pm"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be tomorrow. The city should be seattle. The restaurantname should be Barolo. The numberofpeople should be 2. The starttime should be 7pm.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "tomorrow",
+            "city": "seattle",
+            "restaurantname": "Barolo",
+            "numberofpeople": "2",
+            "starttime": "7pm"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_1686",
+    "original_id": "1686",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be Friday. The city should be Atlanta. The numberofpeople should be 4. The restauranttype should be sushi bar. The starttime should be 8 PM. ",
+      "inform": {
+        "restaurant": {
+          "date": "Friday",
+          "city": "Atlanta",
+          "numberofpeople": "4",
+          "restauranttype": "sushi bar",
+          "starttime": "8 PM"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be Friday. The city should be Atlanta. The numberofpeople should be 4. The restauranttype should be sushi bar. The starttime should be 8 PM.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "Friday",
+            "city": "Atlanta",
+            "numberofpeople": "4",
+            "restauranttype": "sushi bar",
+            "starttime": "8 PM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_0999",
+    "original_id": "999",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be tomorrow. The city should be LA. The numberofpeople should be 8. The restauranttype should be full bar. The starttime should be 9pm. ",
+      "inform": {
+        "restaurant": {
+          "date": "tomorrow",
+          "city": "LA",
+          "numberofpeople": "8",
+          "restauranttype": "full bar",
+          "starttime": "9pm"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be tomorrow. The city should be LA. The numberofpeople should be 8. The restauranttype should be full bar. The starttime should be 9pm.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "tomorrow",
+            "city": "LA",
+            "numberofpeople": "8",
+            "restauranttype": "full bar",
+            "starttime": "9pm"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_1833",
+    "original_id": "1833",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be tonight. The city should be Seattle. The numberofpeople should be 1. The starttime should be after 8:00. The mealtype should be dinner. ",
+      "inform": {
+        "restaurant": {
+          "date": "tonight",
+          "city": "Seattle",
+          "numberofpeople": "1",
+          "starttime": "after 8:00",
+          "mealtype": "dinner"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be tonight. The city should be Seattle. The numberofpeople should be 1. The starttime should be after 8:00. The mealtype should be dinner.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "tonight",
+            "city": "Seattle",
+            "numberofpeople": "1",
+            "starttime": "after 8:00",
+            "mealtype": "dinner"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_2730",
+    "original_id": "2730",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The city should be Boston. The numberofpeople should be 3. The food should be any type of food. The starttime should be 6 PM. The date should be April 3rd. The restauranttype should be family restaurant. ",
+      "inform": {
+        "restaurant": {
+          "city": "Boston",
+          "numberofpeople": "3",
+          "food": "any type of food",
+          "starttime": "6 PM",
+          "date": "April 3rd",
+          "restauranttype": "family restaurant"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The city should be Boston. The numberofpeople should be 3. The food should be any type of food. The starttime should be 6 PM. The date should be April 3rd. The restauranttype should be family restaurant.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "city": "Boston",
+            "numberofpeople": "3",
+            "food": "any type of food",
+            "starttime": "6 PM",
+            "date": "April 3rd",
+            "restauranttype": "family restaurant"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_1771",
+    "original_id": "1771",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be Friday. The city should be Boston. The numberofpeople should be 7. The restauranttype should be good steak house. The starttime should be 11 AM. ",
+      "inform": {
+        "restaurant": {
+          "date": "Friday",
+          "city": "Boston",
+          "numberofpeople": "7",
+          "restauranttype": "good steak house",
+          "starttime": "11 AM"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be Friday. The city should be Boston. The numberofpeople should be 7. The restauranttype should be good steak house. The starttime should be 11 AM.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "Friday",
+            "city": "Boston",
+            "numberofpeople": "7",
+            "restauranttype": "good steak house",
+            "starttime": "11 AM"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_restaurant",
+    "data_split": "train",
+    "dialogue_id": "msdialog_restaurant_2629",
+    "original_id": "2629",
+    "domains": [
+      "restaurant"
+    ],
+    "goal": {
+      "description": "You want to make a restaurant reservation. The date should be friday. The mealtype should be dinner. The numberofpeople should be 3. The restauranttype should be vegan place. ",
+      "inform": {
+        "restaurant": {
+          "date": "friday",
+          "mealtype": "dinner",
+          "numberofpeople": "3",
+          "restauranttype": "vegan place"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to make a restaurant reservation. The date should be friday. The mealtype should be dinner. The numberofpeople should be 3. The restauranttype should be vegan place.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "restaurant": {
+            "date": "friday",
+            "mealtype": "dinner",
+            "numberofpeople": "3",
+            "restauranttype": "vegan place"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,398 @@
+[
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_1105",
+    "original_id": "1105",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The date should be tomorrow. The numberofpeople should be 10. The moviename should be Deadpool. The greeting should be Hey there. ",
+      "inform": {
+        "movie": {
+          "date": "tomorrow",
+          "numberofpeople": "10",
+          "moviename": "Deadpool",
+          "greeting": "Hey there"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The date should be tomorrow. The numberofpeople should be 10. The moviename should be Deadpool. The greeting should be Hey there.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "date": "tomorrow",
+            "numberofpeople": "10",
+            "moviename": "Deadpool",
+            "greeting": "Hey there"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_0715",
+    "original_id": "715",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The city should be Madison. The state should be WI. The numberofpeople should be 8. The moviename should be Zootopia. ",
+      "inform": {
+        "movie": {
+          "city": "Madison",
+          "state": "WI",
+          "numberofpeople": "8",
+          "moviename": "Zootopia"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The city should be Madison. The state should be WI. The numberofpeople should be 8. The moviename should be Zootopia.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "city": "Madison",
+            "state": "WI",
+            "numberofpeople": "8",
+            "moviename": "Zootopia"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_0197",
+    "original_id": "197",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The genre should be action. The numberofpeople should be 10. The description should be good. ",
+      "inform": {
+        "movie": {
+          "genre": "action",
+          "numberofpeople": "10",
+          "description": "good"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The genre should be action. The numberofpeople should be 10. The description should be good.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "genre": "action",
+            "numberofpeople": "10",
+            "description": "good"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_1781",
+    "original_id": "1781",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The date should be tonight. The numberofpeople should be 4. ",
+      "inform": {
+        "movie": {
+          "date": "tonight",
+          "numberofpeople": "4"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The date should be tonight. The numberofpeople should be 4.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "date": "tonight",
+            "numberofpeople": "4"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_0600",
+    "original_id": "600",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The city should be spokane. The state should be washington. The numberofpeople should be 7. The moviename should be star wars. ",
+      "inform": {
+        "movie": {
+          "city": "spokane",
+          "state": "washington",
+          "numberofpeople": "7",
+          "moviename": "star wars"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The city should be spokane. The state should be washington. The numberofpeople should be 7. The moviename should be star wars.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "city": "spokane",
+            "state": "washington",
+            "numberofpeople": "7",
+            "moviename": "star wars"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_2018",
+    "original_id": "2018",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The numberofpeople should be 2. The moviename should be Deadpool. The zip should be 93304. ",
+      "inform": {
+        "movie": {
+          "numberofpeople": "2",
+          "moviename": "Deadpool",
+          "zip": "93304"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The numberofpeople should be 2. The moviename should be Deadpool. The zip should be 93304.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "numberofpeople": "2",
+            "moviename": "Deadpool",
+            "zip": "93304"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_1372",
+    "original_id": "1372",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The moviename should be The Bronze. The numberofpeople should be 4. The theater should be AMC Northpark 15. The city should be Dallas. ",
+      "inform": {
+        "movie": {
+          "moviename": "The Bronze",
+          "numberofpeople": "4",
+          "theater": "AMC Northpark 15",
+          "city": "Dallas"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The moviename should be The Bronze. The numberofpeople should be 4. The theater should be AMC Northpark 15. The city should be Dallas.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "moviename": "The Bronze",
+            "numberofpeople": "4",
+            "theater": "AMC Northpark 15",
+            "city": "Dallas"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_2280",
+    "original_id": "2280",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The genre should be superhero. The numberofpeople should be 1. ",
+      "inform": {
+        "movie": {
+          "genre": "superhero",
+          "numberofpeople": "1"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The genre should be superhero. The numberofpeople should be 1.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "genre": "superhero",
+            "numberofpeople": "1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_1707",
+    "original_id": "1707",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The date should be Wednesday. The video_format should be 3D. The numberofpeople should be 1. The theater should be AMC LOEWS CHERRY HILL 24. ",
+      "inform": {
+        "movie": {
+          "date": "Wednesday",
+          "video_format": "3D",
+          "numberofpeople": "1",
+          "theater": "AMC LOEWS CHERRY HILL 24"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The date should be Wednesday. The video_format should be 3D. The numberofpeople should be 1. The theater should be AMC LOEWS CHERRY HILL 24.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "date": "Wednesday",
+            "video_format": "3D",
+            "numberofpeople": "1",
+            "theater": "AMC LOEWS CHERRY HILL 24"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_movie",
+    "data_split": "train",
+    "dialogue_id": "msdialog_movie_0693",
+    "original_id": "693",
+    "domains": [
+      "movie"
+    ],
+    "goal": {
+      "description": "You want to book movie tickets. The date should be today. The numberofpeople should be 8. The greeting should be hey there. ",
+      "inform": {
+        "movie": {
+          "date": "today",
+          "numberofpeople": "8",
+          "greeting": "hey there"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book movie tickets. The date should be today. The numberofpeople should be 8. The greeting should be hey there.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "movie": {
+            "date": "today",
+            "numberofpeople": "8",
+            "greeting": "hey there"
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "domains": {
+    "movie": {
+      "description": "find and book movie tickets",
+      "slots": {
+        "actor": {
+          "description": "actor information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "actress": {
+          "description": "actress information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "city": {
+          "description": "city information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "critic_rating": {
+          "description": "critic_rating information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "date": {
+          "description": "date information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "description": {
+          "description": "description information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "distanceconstraints": {
+          "description": "distanceconstraints information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "genre": {
+          "description": "genre information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "implicit_value": {
+          "description": "implicit_value information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "movie_series": {
+          "description": "movie_series information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "moviename": {
+          "description": "moviename information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "mpaa_rating": {
+          "description": "mpaa_rating information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "numberofpeople": {
+          "description": "numberofpeople information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "numberofkids": {
+          "description": "numberofkids information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "price": {
+          "description": "price information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "seating": {
+          "description": "seating information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "starttime": {
+          "description": "starttime information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "state": {
+          "description": "state information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "theater": {
+          "description": "theater information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "theater_chain": {
+          "description": "theater_chain information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "video_format": {
+          "description": "video_format information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "zip": {
+          "description": "zip information for movie booking",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  }
+}

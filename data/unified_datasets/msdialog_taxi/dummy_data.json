@@ -1,0 +1,414 @@
+[
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1082",
+    "original_id": "1082",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The dropoff_location should be The Craft Bar. The pickup_location should be The Back Porch. The state should be FL. The numberofpeople should be 8. The pickup_location_city should be Destin. ",
+      "inform": {
+        "taxi": {
+          "dropoff_location": "The Craft Bar",
+          "pickup_location": "The Back Porch",
+          "state": "FL",
+          "numberofpeople": "8",
+          "pickup_location_city": "Destin"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The dropoff_location should be The Craft Bar. The pickup_location should be The Back Porch. The state should be FL. The numberofpeople should be 8. The pickup_location_city should be Destin.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "dropoff_location": "The Craft Bar",
+            "pickup_location": "The Back Porch",
+            "state": "FL",
+            "numberofpeople": "8",
+            "pickup_location_city": "Destin"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1050",
+    "original_id": "1050",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The car_type should be uber. The numberofpeople should be 10. The pickup_time should be 12 pm. The pickup_location_city should be Las Vegas. The dropoff_location should be the Town Square AMC 18. The date should be 3/19. The pickup_location should be Polo Towers Casino. ",
+      "inform": {
+        "taxi": {
+          "car_type": "uber",
+          "numberofpeople": "10",
+          "pickup_time": "12 pm",
+          "pickup_location_city": "Las Vegas",
+          "dropoff_location": "the Town Square AMC 18",
+          "date": "3/19",
+          "pickup_location": "Polo Towers Casino"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The car_type should be uber. The numberofpeople should be 10. The pickup_time should be 12 pm. The pickup_location_city should be Las Vegas. The dropoff_location should be the Town Square AMC 18. The date should be 3/19. The pickup_location should be Polo Towers Casino.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "car_type": "uber",
+            "numberofpeople": "10",
+            "pickup_time": "12 pm",
+            "pickup_location_city": "Las Vegas",
+            "dropoff_location": "the Town Square AMC 18",
+            "date": "3/19",
+            "pickup_location": "Polo Towers Casino"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_0068",
+    "original_id": "68",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The numberofpeople should be 9. The other should be has a stretch part. ",
+      "inform": {
+        "taxi": {
+          "numberofpeople": "9",
+          "other": "has a stretch part"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The numberofpeople should be 9. The other should be has a stretch part.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "numberofpeople": "9",
+            "other": "has a stretch part"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1110",
+    "original_id": "1110",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The date should be tomorrow night. The numberofpeople should be 4. The greeting should be hi. ",
+      "inform": {
+        "taxi": {
+          "date": "tomorrow night",
+          "numberofpeople": "4",
+          "greeting": "hi"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The date should be tomorrow night. The numberofpeople should be 4. The greeting should be hi.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "date": "tomorrow night",
+            "numberofpeople": "4",
+            "greeting": "hi"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_0088",
+    "original_id": "88",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The state should be IL. The numberofpeople should be 7. The pickup_location_city should be Chicago. ",
+      "inform": {
+        "taxi": {
+          "state": "IL",
+          "numberofpeople": "7",
+          "pickup_location_city": "Chicago"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The state should be IL. The numberofpeople should be 7. The pickup_location_city should be Chicago.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "state": "IL",
+            "numberofpeople": "7",
+            "pickup_location_city": "Chicago"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1372",
+    "original_id": "1372",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The numberofpeople should be 8. The dropoff_location_city should be Des Moines. The greeting should be Hi. The dropoff_location should be Drake University. The state should be IA. The pickup_location should be Des Moines Airport. ",
+      "inform": {
+        "taxi": {
+          "numberofpeople": "8",
+          "dropoff_location_city": "Des Moines",
+          "greeting": "Hi",
+          "dropoff_location": "Drake University",
+          "state": "IA",
+          "pickup_location": "Des Moines Airport"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The numberofpeople should be 8. The dropoff_location_city should be Des Moines. The greeting should be Hi. The dropoff_location should be Drake University. The state should be IA. The pickup_location should be Des Moines Airport.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "numberofpeople": "8",
+            "dropoff_location_city": "Des Moines",
+            "greeting": "Hi",
+            "dropoff_location": "Drake University",
+            "state": "IA",
+            "pickup_location": "Des Moines Airport"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1387",
+    "original_id": "1387",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The dropoff_location should be Spin Nightclub 2028 Hancock St. The numberofpeople should be 9. The dropoff_location_city should be San Diego. ",
+      "inform": {
+        "taxi": {
+          "dropoff_location": "Spin Nightclub 2028 Hancock St",
+          "numberofpeople": "9",
+          "dropoff_location_city": "San Diego"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The dropoff_location should be Spin Nightclub 2028 Hancock St. The numberofpeople should be 9. The dropoff_location_city should be San Diego.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "dropoff_location": "Spin Nightclub 2028 Hancock St",
+            "numberofpeople": "9",
+            "dropoff_location_city": "San Diego"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_1337",
+    "original_id": "1337",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The dropoff_location should be lucas oil stadium. The pickup_location should be conrad. The numberofpeople should be 9. The pickup_location_city should be indianapolis. ",
+      "inform": {
+        "taxi": {
+          "dropoff_location": "lucas oil stadium",
+          "pickup_location": "conrad",
+          "numberofpeople": "9",
+          "pickup_location_city": "indianapolis"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The dropoff_location should be lucas oil stadium. The pickup_location should be conrad. The numberofpeople should be 9. The pickup_location_city should be indianapolis.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "dropoff_location": "lucas oil stadium",
+            "pickup_location": "conrad",
+            "numberofpeople": "9",
+            "pickup_location_city": "indianapolis"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_0097",
+    "original_id": "97",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The dropoff_location should be clearwater. The pickup_location should be Tampa airport. The numberofpeople should be 10. ",
+      "inform": {
+        "taxi": {
+          "dropoff_location": "clearwater",
+          "pickup_location": "Tampa airport",
+          "numberofpeople": "10"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The dropoff_location should be clearwater. The pickup_location should be Tampa airport. The numberofpeople should be 10.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "dropoff_location": "clearwater",
+            "pickup_location": "Tampa airport",
+            "numberofpeople": "10"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "dataset": "msdialog_taxi",
+    "data_split": "train",
+    "dialogue_id": "msdialog_taxi_0087",
+    "original_id": "87",
+    "domains": [
+      "taxi"
+    ],
+    "goal": {
+      "description": "You want to book a taxi. The date should be tonight. The pickup_location should be Ballard. The numberofpeople should be 5. The pickup_location_city should be Seattle. The pickup_time should be 4pm. ",
+      "inform": {
+        "taxi": {
+          "date": "tonight",
+          "pickup_location": "Ballard",
+          "numberofpeople": "5",
+          "pickup_location_city": "Seattle",
+          "pickup_time": "4pm"
+        }
+      },
+      "request": {}
+    },
+    "turns": [
+      {
+        "speaker": "user",
+        "utterance": "You want to book a taxi. The date should be tonight. The pickup_location should be Ballard. The numberofpeople should be 5. The pickup_location_city should be Seattle. The pickup_time should be 4pm.",
+        "utt_idx": 0,
+        "dialogue_acts": {
+          "categorical": [],
+          "non-categorical": [],
+          "binary": []
+        },
+        "state": {
+          "taxi": {
+            "date": "tonight",
+            "pickup_location": "Ballard",
+            "numberofpeople": "5",
+            "pickup_location_city": "Seattle",
+            "pickup_time": "4pm"
+          }
+        }
+      }
+    ]
+  }
+]

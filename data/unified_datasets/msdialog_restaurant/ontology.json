@@ -1,0 +1,164 @@
+{
+  "domains": {
+    "restaurant": {
+      "description": "find and book restaurant reservations",
+      "slots": {
+        "address": {
+          "description": "address information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "atmosphere": {
+          "description": "atmosphere information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "choice": {
+          "description": "choice information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "city": {
+          "description": "city information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "closing": {
+          "description": "closing information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "cuisine": {
+          "description": "cuisine information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "date": {
+          "description": "date information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "distanceconstraints": {
+          "description": "distanceconstraints information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "dress_code": {
+          "description": "dress_code information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "food": {
+          "description": "food information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "greeting": {
+          "description": "greeting information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "implicit_value": {
+          "description": "implicit_value information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "mealtype": {
+          "description": "mealtype information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "numberofpeople": {
+          "description": "numberofpeople information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "numberofkids": {
+          "description": "numberofkids information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "occasion": {
+          "description": "occasion information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "other": {
+          "description": "other information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "personfullname": {
+          "description": "personfullname information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "phonenumber": {
+          "description": "phonenumber information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "pricing": {
+          "description": "pricing information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "rating": {
+          "description": "rating information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "restaurantname": {
+          "description": "restaurantname information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "restauranttype": {
+          "description": "restauranttype information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "seating": {
+          "description": "seating information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "starttime": {
+          "description": "starttime information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "state": {
+          "description": "state information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "zip": {
+          "description": "zip information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "result": {
+          "description": "result information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "mc_list": {
+          "description": "mc_list information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "taskcomplete": {
+          "description": "taskcomplete information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        },
+        "reservation": {
+          "description": "reservation information for restaurant reservation",
+          "is_categorical": false,
+          "possible_values": []
+        }
+      }
+    }
+  }
+}
